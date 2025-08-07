@@ -12,7 +12,6 @@ import lime.app.Application;
 import states.TitleState;
 import openfl.events.KeyboardEvent;
 import lime.system.System as LimeSystem;
-import mobile.objects.MobileControls;
 #if mobile
 import mobile.backend.MobileScaleMode;
 #end
