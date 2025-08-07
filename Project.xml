@@ -24,8 +24,7 @@
 	<define name="HSCRIPT_ALLOWED" if="desktop || mobile || web" />
 	<define name="LUA_ALLOWED" if="desktop || mobile" unless="hl"/>
 	<define name="ACHIEVEMENTS_ALLOWED" />
-	<define name="DISCORD_ALLOWED" if="desktop" unless="hl"/>
-	<define name="TRANSLATIONS_ALLOWED" unless="html5"/>	
+	<define name="DISCORD_ALLOWED" if="desktop" unless="hl"/>	
 	<define name="SHOW_LOADING_SCREEN" />
 	<define name="PSYCH_WATERMARKS"/> <!-- DELETE THIS TO REMOVE THE PSYCH LOGO FROM LOADING SCREEN -->
 	<define name="VIDEOS_ALLOWED" if="desktop || mobile" unless="32bits || hl || rpi"/> <!-- i'll keep this cuz it makes vscode think i don't use videos -->
@@ -81,8 +80,8 @@
 	</section>
 
 	<section if="TRANSLATIONS_ALLOWED">
-		<assets path="assets/translations" rename="assets" exclude="*.ogg" if="web"/>
-		<assets path="assets/translations" rename="assets" exclude="*.mp3"  unless="web"/>
+	    <assets path="assets/translations" rename="assets" exclude="*.ogg" if="web"/>
+	 	<assets path="assets/translations" rename="assets" exclude="*.mp3"  unless="web"/>
 	</section>
 
 	<section if="BASE_GAME_FILES">
