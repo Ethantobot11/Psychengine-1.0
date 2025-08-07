@@ -14,7 +14,7 @@ import openfl.events.KeyboardEvent;
 import lime.system.System as LimeSystem;
 #if mobile
 import mobile.backend.MobileScaleMode;
-import mobile.object.MobileControls;
+import mobile.objects.MobileControls;
 #end
 #if linux
 import lime.graphics.Image;
