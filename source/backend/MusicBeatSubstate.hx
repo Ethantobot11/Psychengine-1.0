@@ -29,7 +29,7 @@ class MusicBeatSubstate extends FlxSubState
 		return Controls.instance;
 
 	public var touchPad:TouchPad;
-	public var mobileControls:TouchButton;
+	public var mobileControls:MobileControls;
 
 	public function addMobileControls(defaultDrawTarget:Bool = true):Void
 		{
