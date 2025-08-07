@@ -15,7 +15,7 @@ import backend.Achievements;
 #end
 
 //Mobile Controls
-import mobile.objects.MobileControls
+import mobile.objects.MobileControls;
 import mobile.objects.Hitbox;
 import mobile.objects.TouchButton;
 import mobile.objects.TouchPad;
