@@ -22,7 +22,6 @@ class MusicBeatState extends FlxState
 	}
 
 	public var touchPad:TouchPad;
-	public var mobileControls:MobileControls;
 	public var camControls:FlxCamera;
 	public var vpadCam:FlxCamera;
 
@@ -40,7 +39,7 @@ class MusicBeatState extends FlxState
 
 	public function addMobileControls(defaultDrawTarget:Bool = true):Void
 	{
-		mobileControls = new MobileControls();
+		mobileControls = new TouchButton();
 
 		camControls = new FlxCamera();
 		camControls.bgColor.alpha = 0;
