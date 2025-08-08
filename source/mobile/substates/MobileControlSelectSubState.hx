@@ -7,6 +7,7 @@ import flixel.util.FlxGradient;
 import mobile.backend.TouchFunctions;
 import flixel.input.touch.FlxTouch;
 import flixel.ui.FlxButton as UIButton;
+import mobile.objects.TouchButton;
 
 class MobileControlSelectSubState extends MusicBeatSubstate
 {
@@ -21,7 +22,7 @@ class MobileControlSelectSubState extends MusicBeatSubstate
 	var ui:FlxCamera;
 	var curOption:Int = MobileControls.mode;
 	var buttonBinded:Bool = false;
-	var bindButton:TouchPadButton;
+	var bindButton:TouchButton;
 	var reset:UIButton;
 	var tweenieShit:Float = 0;
 
