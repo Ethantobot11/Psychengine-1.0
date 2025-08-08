@@ -177,7 +177,7 @@ class MobileControlSelectSubState extends MusicBeatSubstate
 						moveButton(TouchFunctions.touch, button);
 				});
 			}
-		control.touchPad.forEachAlive((button:TouchPadButton) -> {
+		control.touchPad.forEachAlive((button:TouchButton) -> {
 			if(button != bindButton && buttonBinded){
 				bindButton.centerBounds();
 				button.bounds.immovable = true;
@@ -312,7 +312,7 @@ class MobileControlSelectSubState extends MusicBeatSubstate
 			func();
 	}
 
-	function moveButton(touch:FlxTouch, button:TouchPadButton):Void
+	function moveButton(touch:FlxTouch, button:TouchButton):Void
 	{
 		bindButton = button;
 		buttonBinded = bindButton == null ? false : true;
