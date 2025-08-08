@@ -14,7 +14,7 @@ import flixel.util.typeLimit.OneOfTwo;
  * ...
  * @author: Karim Akra
  */
-class MobileControls extends FlxTypedSpriteGroup<MobileInputManager<Dynamic>>
+class MobileControls extends FlxTypedSpriteGroup<MobileInputManager>
 {
 	public var touchPad:TouchPad = new TouchPad('NONE', 'NONE', NONE);
 	public var hitbox:Hitbox = new Hitbox(NONE);
