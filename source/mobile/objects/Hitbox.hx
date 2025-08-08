@@ -6,6 +6,7 @@ import flixel.graphics.FlxGraphic;
 import openfl.geom.Matrix;
 import flixel.util.FlxSignal;
 import mobile.input.MobileInputManager;
+import flixel.util.FlxDestroyUtil;
 
 /**
  * A zone with 4 hint's (A hitbox).
