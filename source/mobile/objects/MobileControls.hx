@@ -191,7 +191,7 @@ class CurrentManager
 	public var buttonRight:TouchButton;
 	public var buttonExtra:TouchButton;
 	public var buttonExtra2:TouchButton;
-	public var target:MobileInputManager<Dynamic>;
+	public var target:MobileInputManager;
 
 	public function new(control:MobileControls)
 	{
