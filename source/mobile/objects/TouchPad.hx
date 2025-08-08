@@ -2,6 +2,7 @@ package mobile.objects;
 
 import flixel.math.FlxPoint;
 import flixel.util.FlxSignal;
+import mobile.input.MobileInputManager;
 import flixel.util.FlxDestroyUtil;
 
 /**
